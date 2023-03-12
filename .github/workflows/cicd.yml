@@ -11,7 +11,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_NAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository:  abraaxas/prueba-gha:tagname 
+        repository:  abraaxas/prueba-gha:tagname
         tag_with_ref: true
         tag_with_sha: true
         tags: ${{ github.sha }}
